@@ -32,7 +32,7 @@ export default function Snapchat() {
     <div className=" relative bg-[#F7F7F7] flex items-center py-[4rem] h-full overflow-hidden ">
       <div className=" relative flex lg:flex-row flex-col lg:text-left text-center items-center gap-8 lg:gap-4 z-10 wrapper">
         <div className=" lg:basis-1/2  space-y-4">
-          <div className=" flex justify-center">
+          <div className=" flex lg:justify-start justify-center">
             <Image src={snapchat} alt="" />
           </div>
           <h2>Snapchat gratuit tous les jours</h2>
