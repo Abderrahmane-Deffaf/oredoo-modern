@@ -24,16 +24,6 @@ export default function ServiceAffaire() {
           </p>
         </div>
       </div>
-      <Image
-        className=" -rotate-[125deg] absolute -left-[15rem] -top-[13rem] lg:-left-[35rem] lg:-top-full"
-        src={glow}
-        alt=""
-      />
-      <Image
-        className=" w-[13%] lg:block hidden absolute right-0 bottom-0"
-        src={stairs}
-        alt=""
-      />
     </div>
   );
 }

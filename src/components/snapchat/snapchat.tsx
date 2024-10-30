@@ -45,7 +45,7 @@ export default function Snapchat() {
               {content.map((Element, index) => (
                 <div
                   className="embla__slide font-semibold h-fit  basis-full   flex-shrink-0 flex-grow-0"
-                  key={index}
+                  key={Element}
                 >
                   {Element}
                 </div>
